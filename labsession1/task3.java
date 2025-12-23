@@ -10,7 +10,7 @@ public class task3 {
         float productPrice = input.nextFloat();
 
         System.out.println("Enter your discount percentage: ");
-        float discount = input.nextFloat();
+        float discount = input.nextFloat(); 
 
         float totalDiscount = (productPrice * discount) / 100;
         float totalAmount = productPrice - totalDiscount;
@@ -20,3 +20,4 @@ public class task3 {
         input.close();
     }
 }
+
