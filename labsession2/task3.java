@@ -8,7 +8,7 @@ public class task3 {
         float temprature;
         String conditionOutside;
 
-        System.out.println("What is the outside condition of your area (rainy or sunny):-");
+        System.out.println("What is the outside condition of your area (rainy or sunny):- ");
         conditionOutside = input.nextLine();
         
         if(conditionOutside.equals("rainy") || conditionOutside.equals("sunny")) {
@@ -47,4 +47,5 @@ public class task3 {
         input.close();
 
     }
+
 }
